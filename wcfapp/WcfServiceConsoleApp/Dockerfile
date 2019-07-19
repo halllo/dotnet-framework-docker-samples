@@ -1,4 +1,4 @@
-FROM microsoft/dotnet-framework:4.6.2
+FROM mcr.microsoft.com/windows/servercore:1809
 EXPOSE 80
 EXPOSE 808
 WORKDIR /app
